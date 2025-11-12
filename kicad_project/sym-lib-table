@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IRFZ44N")(type "Legacy")(uri "${KIPRJMOD}/Simbolos/IRFZ44N.lib")(options "")(descr ""))
+)
