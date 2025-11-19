@@ -2565,6 +2565,12 @@
 		(uuid "045031b2-a79d-46b2-882b-8445563d9005")
 	)
 	(junction
+		(at 231.14 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0616663a-1387-49a4-9220-b3b8d577097a")
+	)
+	(junction
 		(at 218.44 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5704,6 +5710,73 @@
 			(project ""
 				(path "/b69418bb-1d9c-4542-932d-c618456e07de"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 231.14 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f549fc-42fb-43fb-b568-47985634d6ea")
+		(property "Reference" "#PWR013"
+			(at 234.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 227.33 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 231.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c927fec-0ae8-4908-8254-d78797062934")
+		)
+		(instances
+			(project "WirelessChargerPCB"
+				(path "/b69418bb-1d9c-4542-932d-c618456e07de"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
