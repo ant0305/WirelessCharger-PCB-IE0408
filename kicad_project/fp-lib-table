@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Huellas")(type "KiCad")(uri "${KIPRJMOD}/Huellas")(options "")(descr ""))
   (lib (name "MouseBites")(type "KiCad")(uri "${KIPRJMOD}/MouseBites.preety")(options "")(descr ""))
+  (lib (name "TestPoint")(type "KiCad")(uri "${KIPRJMOD}/TestPoint.preety")(options "")(descr ""))
 )
