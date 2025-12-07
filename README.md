@@ -63,8 +63,74 @@ Una vez definido el circuito final, se diseñó la PCB en *KiCad* con una arquit
 
 <div align="center">
 
-| ![Capa F.Cu](images/F.Cu.png) |
+| ![Capa F.Cu](images/F_Cu.png) |
 |:-----------------------------:|
 |    *Capa superior (F.Cu)*     |
+
+</div>
+
+<div align="center">
+
+| ![Capa B.Cu](images/B_Cu.png) |
+|:-----------------------------:|
+|    *Capa inferior (B.Cu)*     |
+
+</div>
+
+<div align="center">
+
+| ![In1.Cu - Alimentación](images/In1_Cu.png) |
+|:-------------------------------------------:|
+|      *Capa interna 1 - +9*         |
+
+</div>
+
+<div align="center">
+
+| ![In2.Cu - Tierra](images/In2_Cu.png) |
+|:-------------------------------------:|
+|        *Capa interna 2 - GND*         |
+
+</div>
+
+Además, se agregaron zonas de serigrafía, agujeros de montaje, así como textos identificativos y logotipos en el *silkscreen* con el nombre del proyecto y los autores. Como resultado final se muestra la PCB en el visor 3D de *KiCad* con y sin los modelos 3D 
+
+<div align="center">
+
+| ![Vista 3D Frontal de la PCB sin 3D](images/Front_3D_nc.png) |
+|:--:|
+| *Vista 3D Frontal de la PCB en KiCad* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D Frontal de la PCB sin 3D](images/Back_3D_nc.png) |
+|:--:|
+| *Vista 3D Frontal de la PCB en KiCad* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D Frontal de la PCB con Modelos](images/Front_3D.png) |
+|:--:|
+| *Vista 3D Frontal de la PCB en KiCad con modelos 3D* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D Trasera de la PCB con Modelos](images/Back_3D.png) |
+|:--:|
+| *Vista 3D Trasera de la PCB en KiCad con modelos 3D* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D Lateral Izquierda de la PCB con 3D](images/side_3D.png) |
+|:--:|
+| *Vista 3D Lateral Izquierda de la PCB en KiCad con modelos 3D* |
 
 </div>
