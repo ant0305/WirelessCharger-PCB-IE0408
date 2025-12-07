@@ -129,7 +129,7 @@ Además, se agregaron zonas de serigrafía, agujeros de montaje, así como texto
 
 <div align="center">
 
-| ![Vista 3D Lateral Izquierda de la PCB con 3D](images/side_3D.png) |
+| ![Vista 3D Lateral Izquierda de la PCB con 3D](images/Side_3D.png) |
 |:--:|
 | *Vista 3D Lateral Izquierda de la PCB en KiCad con modelos 3D* |
 
