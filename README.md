@@ -12,7 +12,7 @@ Este repositorio y sus contenidos fueron diseñados durante el curso IE0408 dura
 
 </div>
 
-## Agradecimientos a PCBWay  <!-- <img src="images/PCBwayLogo.png" alt="PCBWay_Logo" width="130" height="40"> -->
+## Agradecimientos a  <img src="images/PCBwayLogo.png" alt="PCBWay_Logo" width="100" height="50">
 
 El proyecto presentado fue posible gracias al valioso respaldo de **PCBWay**, a quienes deseamos extender nuestro más sincero agradecimiento. Las PCBs entregadas mostraron ser de una excelente calidad durante las pruebas realizadas, además de que el acabado en cada una de ellas es impecable, brindando exactamente el resultado que esperábamos.
 
