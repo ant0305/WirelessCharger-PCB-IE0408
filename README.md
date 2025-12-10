@@ -14,10 +14,51 @@ Este repositorio y sus contenidos fueron diseñados durante el curso IE0408 dura
 
 ## Agradecimientos a PCBWay
 
-El proyecto presentado fue posible gracias al valioso respaldo de PCBWay, a quienes deseamos extender nuestro más sincero agradecimiento. Las PCBs entregadas mostraron ser de una excelente calidad durante las pruebas realizadas, además de que el acabado en cada una de ellas es sencillamente perfecto, superando todas nuestras expectativas.
+El proyecto presentado fue posible gracias al valioso respaldo de **PCBWay**, a quienes deseamos extender nuestro más sincero agradecimiento. Las PCBs entregadas mostraron ser de una excelente calidad durante las pruebas realizadas, además de que el acabado en cada una de ellas es impecable, brindando exactamente el resultado que esperábamos.
 
-Agradecemos, de igual manera, al equipo encargado de la atención al cliente, los cuales están siempre disponibles para brindar el apoyo solicitado de la forma más profesional, lo que nos dio mucha seguridad y tranquilidad durante todo el proceso de elaboración y entrega de las PCBs.
+Agradecemos, de igual manera, al equipo encargado de la atención al cliente, los cuales están siempre disponibles para brindar el apoyo solicitado de forma rápida y asertiva, lo que nos dio seguridad y tranquilidad durante todo el proceso de elaboración y entrega de las PCBs. 
 
+### PCBs ensambladas 
+
+Una vez recibidas las placas de PCBWay, se procedió con el ensamblaje manual de todos los componentes. A continuación se muestran imágenes del resultado:
+
+<div align="center">
+
+| ![PCBs_Fab_Unidas](images/PCB_Fab_BacknFront.jpg) |
+|:-----------------------------:|
+|    *PCBs ensambladas y no ensambladas aún unidas*     |
+
+</div>
+
+<div align="center">
+
+| ![PCBs_Fab_Izq](images/PCB_Fab_Izq.jpg) |
+|:-----------------------------:|
+|    *Vista lateral de las PCBs ensambladas unidas*     |
+
+</div>
+
+Una vez soldados todos los componentes en ambas PCBs se procedió a separarlas, rompiendo la uniones entre ambas como se muestra a continuación:
+
+<div align="center">
+
+| ![PCBs_Sep](images/Break.gif) |
+|:-----------------------------:|
+|    *Separación de ambas PCBs*     |
+
+</div>
+
+Y una vez separadas, lijando el sobrante de la junta de unión en ambas PCBs y agregando las bobinas el resultado final es el siguiente:
+
+<div align="center">
+
+| ![PCBs_Fab_L](images/PCB_Fab_L.jpg) |
+|:-----------------------------:|
+|    *Ambas PCBs ensambladas y separadas*     |
+
+</div>
+
+Nuevamente extendemos nuestros agradecimientos a **PCBWay** por apoyar a la realización de este proyecto. Recomendamos sus servicios para estudiantes, profesionales y cualquier persona interesada en manufacturar PCBs de alta calidad. Más información en [pcbway.com](https://www.pcbway.com).
 
 ### Lista de componentes
 
@@ -25,34 +66,34 @@ A continuación se incluye una lista con los componentes utilizados en el diseñ
 
 <div align="center">
 
-| Componente | Valor / Modelo | Descripción |
-|:---:|:---:|:---:|
-| C1, C8 | 10uF, 2.2uF | Capacitor de montaje superficial (SMD) |
-| C2, C3 | 100nF | Capacitor de montaje superficial (SMD) |
-| C4, C5 | 10nF | Capacitor de montaje superficial (SMD) |
-| C6, C7 | 2nF | Capacitor de montaje superficial (SMD) |
-| D1, D2 | 1N4148 | Diodo THT |
-| D3, D4, D5, D6 | SS14 | Diodo Schottky SMD |
-| J1, J2 | Screw_Terminal_01x02 | Terminal de tornillo (2 pines) |
-| L1, L2 | Conn_01x02_Socket | Conector hembra (Socket) 1x02, paso 2.54mm |
-| Q1 | BD139 | Transistor NPN de potencia (THT) |
-| Q2 | IRFZ44N | Transistor MOSFET de potencia |
-| R1 | 100Ω | Resistor de montaje superficial (SMD) |
-| R3 | 150Ω | Resistor de montaje superficial (SMD) |
-| R2| 1kΩ | Resistor de montaje superficial (SMD) |
-| RV1, RV2 | 1kΩ | Resistor variable/Potenciómetro |
-| U1 | NE555D | Circuito Integrado Temporizador NE555 (SMD) |
-| TP1, TP3, TP6 | GND | Punto de prueba (Test Point) para Tierra (GND) |
-| TP2 | OutTim | Punto de prueba (Test Point) para Salida del Temporizador |
-| TP4 | RX | Punto de prueba (Test Point) para Recepción (RX) |
-| TP5 | TX | Punto de prueba (Test Point) para Transmisión (TX)
+| Componente | Valor / Modelo | Descripción / Función | Encapsulado |
+|:---:|:---:|:---:|:---:|
+| C1, C8 | 10uF, 2.2uF | Capacitor cerámico | (SMD) 1206 |
+| C2, C3 | 100nF | Capacitor cerámico | (SMD) 1206 |
+| C4, C5 | 10nF | Capacitor cerámico | (SMD) 1206 |
+| C6, C7 | 2nF | Capacitor cerámico | (SMD) 1206 |
+| D1, D2 | 1N4148 | Diodo Rectificador de alta velocidad | (THT) DO-35 |
+| D3, D4, D5, D6 | SS14 | Diodo Schottky | (SMD) DO-214|
+| J1, J2 | — | Terminal de tornillo (2 pines) | — | 
+| L1, L2 | 1x02 (2.54mm) Female Header | Conectores para colocar las bobinas | — |
+| Q1 | BD139 | Transistor NPN de potencia | (THT) TO-126 |
+| Q2 | IRFZ44N | Transistor MOSFET de potencia | (THT) TO-220 |
+| R1 | 100Ω | Resistor | (SMD) 1206 |
+| R3 | 150Ω | Resistor | (SMD) 1206 |
+| R2| 1kΩ | Resistor | (SMD) 1206 |
+| RV1, RV2 | 1kΩ | Resistor variable/Potenciómetro, | (THT) 3296W |
+| U1 | NE555D | Circuito Integrado Temporizador NE555 | (SMD) SOP8 |
+| TP1, TP3, TP6 | 1x01 (2.54mm) Pin Header | Punto de prueba (Test Point) para Tierra (GND) | — |
+| TP2 | 1x01 (2.54mm) Pin Header | Punto de prueba (Test Point) para medir la Salida del NE555 | — | 
+| TP4 | 1x01 (2.54mm) Pin Header | Punto de prueba (Test Point) para medir la tensión del Receptor (RX) | — |
+| TP5 | 1x01 (2.54mm) Pin Header | Punto de prueba (Test Point) para medir la tensión del Receptor (TX) | — | 
 
 </div>
 
 
 ## Diseño de la PCB
 
-Una vez definido el circuito final, se diseñó la PCB en *KiCad* con una arquitectura de **cuatro capas**, las cuales se distribuyen de la siguiente manera:
+Una vez simulado y definido el circuito final, se diseñó la PCB en *KiCad* con una arquitectura de **cuatro capas**, las cuales se distribuyen de la siguiente manera:
 
 - **F.Cu**: Ruta de señales
 - **In1.Cu**: Plano de alimentación +9V
@@ -81,7 +122,7 @@ Una vez definido el circuito final, se diseñó la PCB en *KiCad* con una arquit
 
 | ![In1.Cu - Alimentación](images/In1_Cu.png) |
 |:-------------------------------------------:|
-|      *Capa interna 1 - +9*         |
+|      *Capa interna 1 (In1.Cu)- +9V*         |
 
 </div>
 
@@ -89,7 +130,7 @@ Una vez definido el circuito final, se diseñó la PCB en *KiCad* con una arquit
 
 | ![In2.Cu - Tierra](images/In2_Cu.png) |
 |:-------------------------------------:|
-|        *Capa interna 2 - GND*         |
+|        *Capa interna (In2.Cu) - GND*         |
 
 </div>
 
