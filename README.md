@@ -175,3 +175,31 @@ Además, se agregaron zonas de serigrafía, agujeros de montaje, así como texto
 | *Vista 3D Lateral Izquierda de la PCB en KiCad con modelos 3D* |
 
 </div>
+
+## Diseño de una carcasa 3D
+
+De forma adicional, se diseñó una carcasa 3D usando la herramienta FreeCAD que permite comprobar el correcto funcionamiento del prototipo y cómo cambia la cantidad de energía entregada dependiendo de la distancia entre el receptor y el emisor.
+
+<div align="center">
+
+| ![Vista 3D de la carcasa del emisor](images/case_transmitter.png) |
+|:--:|
+| *Vista 3D de la carcasa diseñada para el emisor* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D de la carcasa del receptor](images/case_receiver.png) |
+|:--:|
+| *Vista 3D de la carcasa diseñada para el receptor* |
+
+</div>
+
+<div align="center">
+
+| ![Vista 3D de la carcasa del receptor  y emisor](images/trans_and_recei.png) |
+|:--:|
+| *Unión del emisor y receptor usando la carcasa diseñada* |
+
+</div>
